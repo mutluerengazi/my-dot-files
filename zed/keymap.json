@@ -12,19 +12,19 @@
       "space w": "workspace::NewSearch",
       "space f": "file_finder::Toggle",
       "space n": "workspace::ToggleRightDock",
-      "ctrl-h": [
+      "ctrl-w h": [
         "workspace::ActivatePaneInDirection",
         "Left"
       ],
-      "ctrl-l": [
+      "ctrl-w l": [
         "workspace::ActivatePaneInDirection",
         "Right"
       ],
-      "ctrl-k": [
+      "ctrl-w k": [
         "workspace::ActivatePaneInDirection",
         "Up"
       ],
-      "ctrl-j": [
+      "ctrl-w j": [
         "workspace::ActivatePaneInDirection",
         "Down"
       ]
@@ -67,19 +67,19 @@
       "j": "menu::SelectNext",
       "k": "menu::SelectPrev",
       //navigate through project panel
-      "ctrl-h": [
+      "ctrl-w h": [
         "workspace::ActivatePaneInDirection",
         "Left"
       ],
-      "ctrl-l": [
+      "ctrl-w l": [
         "workspace::ActivatePaneInDirection",
         "Right"
       ],
-      "ctrl-k": [
+      "ctrl-w k": [
         "workspace::ActivatePaneInDirection",
         "Up"
       ],
-      "ctrl-j": [
+      "ctrl-w j": [
         "workspace::ActivatePaneInDirection",
         "Down"
       ]
