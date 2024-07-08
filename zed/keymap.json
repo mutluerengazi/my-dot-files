@@ -12,22 +12,11 @@
       "space w": "workspace::NewSearch",
       "space f": "file_finder::Toggle",
       "space n": "workspace::ToggleRightDock",
-      "ctrl-h": [
-        "workspace::ActivatePaneInDirection",
-        "Left"
-      ],
-      "ctrl-l": [
-        "workspace::ActivatePaneInDirection",
-        "Right"
-      ],
-      "ctrl-k": [
-        "workspace::ActivatePaneInDirection",
-        "Up"
-      ],
-      "ctrl-j": [
-        "workspace::ActivatePaneInDirection",
-        "Down"
-      ]
+      "space space": "tab_switcher::Toggle",
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
     }
   },
   {
