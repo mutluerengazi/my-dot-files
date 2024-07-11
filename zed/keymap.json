@@ -51,7 +51,7 @@
       // Directory expansion
       "l": "project_panel::ExpandSelectedEntry",
       "h": "project_panel::CollapseSelectedEntry",
-      "m": "project_panel::CollapseAllEntries",
+      "C": "project_panel::CollapseAllEntries",
       // Move up and down
       "j": "menu::SelectNext",
       "k": "menu::SelectPrev"
