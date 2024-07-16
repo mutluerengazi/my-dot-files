@@ -16,3 +16,6 @@ opacity = 0.999
 
 [selection]
 save_to_clipboard = true
+
+[colors]
+cursor = { text = "#191724", cursor = "#faf4ed"}
