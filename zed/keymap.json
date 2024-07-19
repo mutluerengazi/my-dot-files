@@ -1,36 +1,40 @@
 [
   {
-    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "context": "Dock",
     "bindings": {
-      // put key-bindings here if you want them to work in normal & visual mode
+      "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-w j": ["workspace::ActivatePaneInDirection", "Down"]
+      // ... or other keybindings
     }
   },
   {
-    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "context": "VimControl && !menu",
     "bindings": {
-      // put key-bindings here if you want them to work only in normal mode
+      // put key-bindings here if you want them to work in normal & visual mode
       "space w": "workspace::NewSearch",
       "space f": "file_finder::Toggle",
       "space n": "workspace::ToggleRightDock",
       "space space": "tab_switcher::Toggle",
-      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
-      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
-      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
-      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+      "space b d": "pane::CloseActiveItem"
     }
   },
   {
-    "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
+    "context": "vim_mode == insert",
     "bindings": {
-      // visual, visual line & visual block modes
+      // "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
     }
   },
   {
-    "context": "Editor && vim_mode == insert && !menu",
+    "context": "EmptyPane || SharedScreen",
     "bindings": {
-      // put key-bindings here if you want them to work in insert mode
-      // e.g.
-      // "j j": "vim::NormalBefore" // remap jj in insert mode to escape.
+      // put key-bindings here (in addition to above) if you want them to
+      // work when no editor exists
+      "space w": "workspace::NewSearch",
+      "space f": "file_finder::Toggle",
+      "space space": "tab_switcher::Toggle",
+      "space n": "workspace::ToggleRightDock"
     }
   },
   {

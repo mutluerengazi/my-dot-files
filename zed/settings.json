@@ -1,12 +1,12 @@
 {
   "base_keymap": "VSCode",
-  "theme": "Gruvbox Dark",
+  "theme": "Catppuccin Macchiato",
   "vim_mode": true,
   //font
-  "ui_font_size": 12,
-  "buffer_font_size": 11.5,
-  "ui_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 13,
+  "buffer_font_size": 12,
+  "ui_font_family": "Zed Plex Sans",
+  "buffer_font_family": "Zed Plex Mono",
   "cursor_blink": false,
   //other
   "git": {
