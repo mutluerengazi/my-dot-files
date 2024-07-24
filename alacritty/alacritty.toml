@@ -1,12 +1,11 @@
-import = ["~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"]
+import = ["~/.config/alacritty/themes/themes/everforest_dark.toml"]
 
 # Font configuration
 [font]
 normal = { family = "ZedMono Nerd Font", style = "Regular" }
 bold = { family = "ZedMono Nerd Font", style = "Bold" }
-italic = { family = "ZedMono Nerd Font", style = "Italic" }
-bold_italic = { family = "ZedMono Nerd Font", style = "Bold Italic" }
-size = 12.5
+italic = {family = "ZedMono Nerd Font", style = "Regular" }
+size = 12
 
 [env]
 TERM = "xterm-256color"
